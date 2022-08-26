@@ -6,5 +6,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
   }
 }
