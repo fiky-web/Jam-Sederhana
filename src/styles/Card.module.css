@@ -1,0 +1,78 @@
+.container {
+  width: 65vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  background: #1a1b1d;
+  border: none;
+  border-radius: 1.2rem;
+}
+
+.header {
+  font-size: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cousine";
+  color: #afebfe;
+}
+
+.gap {
+  margin: 30px;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 814px) and (max-width: 1111px) {
+  .container {
+    width: 80vw;
+  }
+
+  .header {
+    font-size: 110px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 813px) {
+  .container {
+    width: 85vw;
+  }
+
+  .header {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 660px) {
+  .container {
+    width: 95vw;
+  }
+
+  .header {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .container {
+    height: 85vh;
+  }
+
+  .header {
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .gap {
+    display: none;
+  }
+
+  .hour {
+    width: 100%;
+    padding-bottom: 4.5em;
+  }
+
+  .second {
+    width: 100%;
+    padding-top: 4.5em;
+  }
+}
