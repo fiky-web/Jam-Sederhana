@@ -10,3 +10,4 @@
     "serve": "vite preview",
     "lint": "eslint ."
   },
+  "license": "MIT",
