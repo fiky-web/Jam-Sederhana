@@ -26,3 +26,8 @@
   .container {
     width: 80vw;
   }
+  
+  .header {
+    font-size: 110px;
+  }
+}
