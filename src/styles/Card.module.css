@@ -21,3 +21,5 @@
   margin: 30px;
   padding-bottom: 16px;
  }
+
+@media (min-width: 814px) and (max-width: 1111px) {
