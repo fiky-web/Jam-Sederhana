@@ -23,3 +23,6 @@
  }
 
 @media (min-width: 814px) and (max-width: 1111px) {
+  .container {
+    width: 80vw;
+  }
