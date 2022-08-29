@@ -20,4 +20,3 @@ const Card: Component<CardProps> = (props) => (
   </article>
 );
 export default Card;
-
