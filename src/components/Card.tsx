@@ -7,6 +7,7 @@ export interface CardProps {
   minute: Accessor<string>;
   second: Accessor<string>;
 }
+
 const Card: Component<CardProps> = (props) => (
   <article class={`card ${styles.container}`}>
     <header class={styles.header}>
