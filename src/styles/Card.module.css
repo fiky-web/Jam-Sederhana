@@ -11,3 +11,4 @@
 .header {
   font-size: 125px;
   display: flex;
+  align-items: center;
