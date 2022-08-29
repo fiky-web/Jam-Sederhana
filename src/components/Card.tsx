@@ -19,4 +19,5 @@ const Card: Component<CardProps> = (props) => (
     </header>
   </article>
 );
+
 export default Card;
