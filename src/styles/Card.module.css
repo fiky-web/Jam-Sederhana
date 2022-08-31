@@ -65,3 +65,8 @@
   .gap {
     display: none;
   }
+  
+  .hour {
+    width: 100%;
+    padding-bottom: 4.5em;
+  }
