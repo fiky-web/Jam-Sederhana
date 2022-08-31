@@ -45,3 +45,7 @@
   .container {
     width: 95vw;
   }
+  .header {
+    font-size: 70px;
+  }
+}
