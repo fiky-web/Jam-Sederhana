@@ -13,6 +13,7 @@ const App: Component = () => {
   const hour = createMemo<string>(() => updateString(time().getHours()));
   const minute = createMemo<string>(() => updateString(time().getMinutes()));
   const second = createMemo<string>(() => updateString(time().getSeconds()));
+  
   onMount(() => {
   function updateTime() {
     setTime(new Date());
