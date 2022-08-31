@@ -51,3 +51,8 @@
     font-size: 70px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .container {
+    height: 85vh;
+  }
