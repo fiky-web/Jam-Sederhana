@@ -70,3 +70,9 @@
     width: 100%;
     padding-bottom: 4.5em;
   }
+  
+  .second {
+    width: 100%;
+    padding-top: 4.5em;
+  }
+}
