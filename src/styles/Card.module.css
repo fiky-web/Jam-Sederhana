@@ -31,3 +31,8 @@
     font-size: 110px;
   }
 }
+
+@media (min-width: 500px) and (max-width: 813px) {
+  .container {
+    width: 85vw;
+  }
