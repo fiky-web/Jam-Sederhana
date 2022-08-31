@@ -61,3 +61,7 @@
     font-size: 50px;
     align-items: center;
   }
+  
+  .gap {
+    display: none;
+  }
