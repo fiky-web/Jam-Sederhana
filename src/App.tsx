@@ -16,3 +16,5 @@ const App: Component = () => {
   onMount(() => {
   function updateTime() {
     setTime(new Date());
+    window.requestAnimationFrame(updateTime);
+  }
