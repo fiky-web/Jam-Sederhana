@@ -15,3 +15,4 @@ const App: Component = () => {
   const second = createMemo<string>(() => updateString(time().getSeconds()));
   onMount(() => {
   function updateTime() {
+    setTime(new Date());
