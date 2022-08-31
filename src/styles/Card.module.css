@@ -40,3 +40,8 @@
     font-size: 90px;
   }
 }
+
+@media (min-width: 500px) and (max-width: 660px) {
+  .container {
+    width: 95vw;
+  }
