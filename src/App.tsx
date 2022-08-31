@@ -22,3 +22,4 @@ const App: Component = () => {
   
   updateTime();
   });
+  return (
