@@ -24,3 +24,5 @@ const App: Component = () => {
   });
   return (
   <div class={styles.container}>
+    <Card hour={hour} minute={minute} second={second} />
+  </div>
