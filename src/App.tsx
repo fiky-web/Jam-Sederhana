@@ -18,3 +18,5 @@ const App: Component = () => {
     setTime(new Date());
     window.requestAnimationFrame(updateTime);
   }
+  updateTime();
+  });
