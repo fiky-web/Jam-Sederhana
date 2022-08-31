@@ -23,3 +23,4 @@ const App: Component = () => {
   updateTime();
   });
   return (
+  <div class={styles.container}>
