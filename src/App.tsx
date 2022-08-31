@@ -26,3 +26,7 @@ const App: Component = () => {
   <div class={styles.container}>
     <Card hour={hour} minute={minute} second={second} />
   </div>
+);
+};
+
+export default App;
