@@ -9,3 +9,6 @@ const updateString = (time: number): string =>
   
 const App: Component = () => {
   const [time, setTime] = createSignal<Date>(new Date());
+  const hour = createMemo<string>(() => updateString(time().getHours()));
+  const minute = createMemo<string>(() => updateString(time().getMinutes()));
+  const second = createMemo<string>(() => updateString(time().getSeconds()));
